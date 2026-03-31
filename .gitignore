@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+.mypy_cache/
+.ruff_cache/
+
+# Env files (NEVER commit)
+.env
+backend/.env
+
+# Database / Redis data
+*.db
+*.sqlite3
+
+# Backtest data (large files)
+backtest/data/stocks/
+backtest/data/nifty_ohlcv.csv
+backtest/reports/*.json
+backtest/reports/*.html
+
+# Node
+node_modules/
+.next/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
